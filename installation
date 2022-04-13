@@ -1,0 +1,17 @@
+npx create-react-app inotebook
+mongo DB is nessesary for backend installation
+
+
+backend 
+npm i epxress
+npm i mongoose
+//these are nessesary package need to install 
+//backend should placed in seperate directory as its a seperate entity but for learning purpose we are putting it in the same one
+//we will connect the backend with the frontend
+//thunderclient extension would be a greate help in this app
+// backend should be seperate 
+
+
+//mongoose index.js will not run for security reason
+Run Powershell as Admin, and then:
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
