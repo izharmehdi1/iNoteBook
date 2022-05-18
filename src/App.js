@@ -11,7 +11,8 @@ import About from './components/About';
 // import  Alert  from './components/Alert';
 import Signup from './components/Signup';
 import Login from './components/Login';
-import NoteState from './context/Notes/NoteState';
+import NoteState from './context/notes/NoteState';
+import { Alert } from './components/Alert';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
     <NoteState>
       <Router>
         <Navbar />
+        <Alert message="this is amazing react course"/>
         {/* <Alert message="This is amazing React course" /> */}
         <div className="container">
           <Switch>
